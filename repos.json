@@ -25,8 +25,8 @@
       "doc": "Front-end static assets served from the CDN."
     },
     {
-      "name": "front-data",
-      "url": "git@github.com:diegonmarcos/front-data.git",
+      "name": "z-archived_front-data",
+      "url": "git@github.com:diegonmarcos/z-archived_front-data.git",
       "private": false,
       "doc": "Front-end content and data."
     },
