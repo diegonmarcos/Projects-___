@@ -1,4 +1,4 @@
-# Projects___
+# Projects-___
 
 Registry index for the Projects repo family — same model as `cloud-master`
 (`~/git/cloud/`), narrowed to the Projects family (group b_projects). This repo is an INDEX, not a container:
