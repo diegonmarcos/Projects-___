@@ -563,9 +563,9 @@
       "doc": "Sources of the c_Circus group (movies, music, myfeed moved to cloud-h-webapps-2 #1204; myAstro moved to cloud-me-pub-profiles-prf-prs #1218), split from front-projects (#1072); snapshot copy, paths mirror the original layout."
     },
     {
-      "name": "Fin-CM-___",
+      "name": "Fin-___",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/Fin-CM-___.git",
+      "url": "git@github.com:diegonmarcos/Fin-___.git",
       "private": false,
       "doc": "Project master for the Fin-CM family (Fin-CM-mqpm, Fin-CM-Blmbrg; Nexus.z moved to the cloud-me-pub-profiles family 2026-10-28): its own repos.json subset plus committed symlinks, same model as CG, front and cloud. Created 2026-10-27 (#1224)."
     },
@@ -579,6 +579,13 @@
         "Me-Profiles-Nexus.z"
       ],
       "doc": "Nexus.z company site (published at /nexus/), moved from front-endeavours a_Companies/nexus (#1224); renamed from Fin-CM-NexusZ into the cloud-me-pub-profiles family 2026-10-28; Projects-endeavours keeps a symlink to this repo."
+    },
+    {
+      "name": "Fin-Corporate",
+      "group": "b_projects",
+      "url": "git@github.com:diegonmarcos/Fin-Corporate.git",
+      "private": false,
+      "doc": "Corporate finance (Nexus.z, Field Finance, Project Corporate); member of the Fin-___ hub. Created 2026-10-28."
     },
     {
       "name": "Fin-CM-mqpm",
@@ -648,9 +655,9 @@
       "doc": "Sources of the former c_LabTools group, split from front-projects (#1072); since #1218 laid out as a-Lfy_CG-Zirkus, a-Lfy_C3, b-Nxs_PA, b-Nxs_Blmmbrg, c-Stk_DsX."
     },
     {
-      "name": "cloud-h-webapps-2",
+      "name": "cloudy-h-webapps-2",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/cloud-h-webapps-2.git",
+      "url": "git@github.com:diegonmarcos/cloudy-h-webapps-2.git",
       "private": false,
       "renamed_from": [
         "front-suite",
@@ -679,9 +686,9 @@
       "doc": "Superseded 2026-10-24 by the 12 per-group front repos (#1072); renamed z-archived_front-projects, to be archived on GitHub (owner click)."
     },
     {
-      "name": "cloud_db_assets-cdn",
+      "name": "cloudy_db_assets-cdn",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/cloud_db_assets-cdn.git",
+      "url": "git@github.com:diegonmarcos/cloudy_db_assets-cdn.git",
       "private": false,
       "renamed_from": [
         "front-assets-cdn"
