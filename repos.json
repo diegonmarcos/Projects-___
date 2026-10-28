@@ -5,8 +5,15 @@
   "_renames_doc": "`renames` records an old name -> new name for things that are not (or not only) repos, so a path that still says the old name is findable and a guard can flag it. `kind: repo` = a repository rename (the entry also carries `renamed_from`); `kind: app-folder` = a folder/app inside a repo. Farmers never create the old name.",
   "renames": [
     {
+      "from": "cloud-webapps-2",
+      "to": "cloud-h-webapps-2",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed; every reference follows, none rely on the redirect. Published URLs unchanged."
+    },
+    {
       "from": "a_Companies/leafy",
-      "to": "DuckPeng-LeafY",
+      "to": "cloud-me-pub-profiles-leaf.y",
       "kind": "app-folder",
       "since": "2026-10-27",
       "ticket": "#1224",
@@ -14,7 +21,7 @@
     },
     {
       "from": "a_Companies/nexus",
-      "to": "Fin-CM-NexusZ",
+      "to": "cloud-me-pub-profiles-nexus.z",
       "kind": "app-folder",
       "since": "2026-10-27",
       "ticket": "#1224",
@@ -22,7 +29,7 @@
     },
     {
       "from": "a_Companies/stark",
-      "to": "DeepSc-StarkX",
+      "to": "cloud-me-pub-profiles-stark.x",
       "kind": "app-folder",
       "since": "2026-10-27",
       "ticket": "#1224",
@@ -134,7 +141,7 @@
       "kind": "repo",
       "since": "2026-10-25",
       "ticket": "#1196",
-      "doc": "Emptied into cloud-me-profiles; archived."
+      "doc": "Emptied into Me-Profiles-Prf-Prs; archived."
     },
     {
       "from": "front-media",
@@ -142,7 +149,7 @@
       "kind": "repo",
       "since": "2026-10-25",
       "ticket": "#1196",
-      "doc": "Emptied into cloud-me-profiles; archived."
+      "doc": "Emptied into Me-Profiles-Prf-Prs; archived."
     },
     {
       "from": "front-linktree",
@@ -153,16 +160,44 @@
       "doc": "GitHub repo renamed."
     },
     {
+      "from": "cloud-me-profiles",
+      "to": "cloud-me-pub-profiles",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed; it is now the hub of the Me-Profiles family. Content split into Me-Profiles-Prf-Prs and Me-Profiles-_Lnktree. Published URLs unchanged."
+    },
+    {
+      "from": "DuckPeng-LeafY",
+      "to": "cloud-me-pub-profiles-leaf.y",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the Me-Profiles family. Published URL /leafy/ unchanged."
+    },
+    {
+      "from": "Fin-CM-NexusZ",
+      "to": "cloud-me-pub-profiles-nexus.z",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the Me-Profiles family. Published URL /nexus/ unchanged."
+    },
+    {
+      "from": "DeepSc-StarkX",
+      "to": "cloud-me-pub-profiles-stark.x",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the Me-Profiles family. Published URL /stark/ unchanged."
+    },
+    {
       "from": "front-profiles",
-      "to": "cloud-me-profiles",
+      "to": "cloud-me-pub-profiles",
       "kind": "repo",
       "since": "2026-10-25",
       "ticket": "#1196",
-      "doc": "GitHub repo renamed; the Pages overlay list and the registry follow."
+      "doc": "GitHub repo renamed (later cloud-me-profiles, then Me-Profiles); the Pages overlay list and the registry follow."
     },
     {
       "from": "front-mydata",
-      "to": "cloud-me-others",
+      "to": "cloud-me-pub-shared",
       "kind": "repo",
       "since": "2026-10-25",
       "ticket": "#1196",
@@ -170,11 +205,60 @@
     },
     {
       "from": "front-suite",
-      "to": "cloud-webapps-2",
+      "to": "cloud-h-webapps-2",
       "kind": "repo",
       "since": "2026-10-25",
       "ticket": "#1196",
       "doc": "GitHub repo renamed; the Pages overlay list and the registry follow."
+    },
+    {
+      "from": "cloud-me-others",
+      "to": "cloud-me-pub-shared",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the cloud-me-pub family. Published URLs unchanged."
+    },
+    {
+      "from": "Me-Profiles",
+      "to": "cloud-me-pub-profiles",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the cloud-me-pub family (intermediate name of the Me-Profiles move). Published URLs unchanged."
+    },
+    {
+      "from": "Me-Profiles-Leaf.y",
+      "to": "cloud-me-pub-profiles-leaf.y",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the cloud-me-pub family (intermediate name of the Me-Profiles move). Published URLs unchanged."
+    },
+    {
+      "from": "Me-Profiles-Nexus.z",
+      "to": "cloud-me-pub-profiles-nexus.z",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the cloud-me-pub family (intermediate name of the Me-Profiles move). Published URLs unchanged."
+    },
+    {
+      "from": "Me-Profiles-Stark.x",
+      "to": "cloud-me-pub-profiles-stark.x",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the cloud-me-pub family (intermediate name of the Me-Profiles move). Published URLs unchanged."
+    },
+    {
+      "from": "Me-Profiles-Prf-Prs",
+      "to": "cloud-me-pub-profiles-prf-prs",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the cloud-me-pub family (intermediate name of the Me-Profiles move). Published URLs unchanged."
+    },
+    {
+      "from": "Me-Profiles-_Lnktree",
+      "to": "cloud-me-pub-profiles-_lnktree",
+      "kind": "repo",
+      "since": "2026-10-28",
+      "doc": "GitHub repo renamed into the cloud-me-pub family (intermediate name of the Me-Profiles move). Published URLs unchanged."
     },
     {
       "from": "ffront",
@@ -187,16 +271,8 @@
   ],
   "unregistered_ok": [
     {
-      "name": "git-repos-master",
+      "name": "_git-repos-master",
       "reason": "this index itself (see _self_doc)"
-    },
-    {
-      "name": "cloud-me",
-      "reason": "on GitHub but not indexed here as of 2026-10-21 (#1073); owner to decide: register or archive"
-    },
-    {
-      "name": "cloud-me_data-private",
-      "reason": "on GitHub but not indexed here as of 2026-10-21 (#1073); owner to decide: register or archive"
     },
     {
       "name": "z-archived_My-ai-memory",
@@ -235,10 +311,10 @@
       "parts": [
         {
           "name": "Lnktree",
-          "path": "cloud-me-profiles",
+          "path": "cloud-me-pub-profiles-_lnktree",
           "status": "split",
           "ticket": "#1217",
-          "doc": "Moved 2026-10-27 from front-linktree (a_Portals) into cloud-me-profiles (Lnktree); front-linktree is superseded and to be archived."
+          "doc": "Moved 2026-10-27 from front-linktree (a_Portals) into cloud-me-pub-profiles-_lnktree (Lnktree); front-linktree is superseded and to be archived."
         },
         {
           "name": "a_Companies",
@@ -249,10 +325,10 @@
         },
         {
           "name": "a_Individual",
-          "path": "cloud-me-profiles",
+          "path": "cloud-me-pub-profiles-prf-prs",
           "status": "split",
           "ticket": "#1196",
-          "doc": "Moved 2026-10-25 into cloud-me-profiles (b_Profiles); front repo front-individual is superseded and archived."
+          "doc": "Moved 2026-10-25 into cloud-me-pub-profiles-prf-prs (b_Profiles); front repo front-individual is superseded and archived."
         },
         {
           "name": "a_Projects",
@@ -270,24 +346,24 @@
         },
         {
           "name": "b_Media",
-          "path": "cloud-me-profiles",
+          "path": "cloud-me-pub-profiles-prf-prs",
           "status": "split",
           "ticket": "#1196",
-          "doc": "Moved 2026-10-25 into cloud-me-profiles (b_Profiles); front repo front-media is superseded and archived."
+          "doc": "Moved 2026-10-25 into cloud-me-pub-profiles-prf-prs (b_Profiles); front repo front-media is superseded and archived."
         },
         {
           "name": "b_MyData",
-          "path": "cloud-me-others",
+          "path": "cloud-me-pub-shared",
           "status": "split",
           "ticket": "#1072",
-          "doc": "Split out 2026-10-24 from front-projects into cloud-me-others; the Pages workflow overlays it."
+          "doc": "Split out 2026-10-24 from front-projects into cloud-me-pub-shared; the Pages workflow overlays it."
         },
         {
           "name": "b_Profiles",
-          "path": "cloud-me-profiles",
+          "path": "cloud-me-pub-profiles-prf-prs",
           "status": "split",
           "ticket": "#1072",
-          "doc": "Split out 2026-10-24 from front-projects into cloud-me-profiles; the Pages workflow overlays it."
+          "doc": "Split out 2026-10-24 from front-projects into cloud-me-pub-profiles-prf-prs; the Pages workflow overlays it."
         },
         {
           "name": "b_Projects",
@@ -340,7 +416,7 @@
         },
         {
           "name": "c_Suite",
-          "path": "cloud-webapps-2",
+          "path": "cloud-h-webapps-2",
           "status": "split",
           "ticket": "#1072",
           "doc": "Split out 2026-10-24 from front-projects into cloud-webapps-2; the Pages workflow overlays it."
@@ -363,7 +439,7 @@
       "renamed_from": [
         "front-linktree"
       ],
-      "doc": "Superseded 2026-10-27 (#1217): linktree sources moved into cloud-me-profiles (Lnktree); renamed z-archived_front-linktree. Originally split from diegonmarcos.github.io (#1072)."
+      "doc": "Superseded 2026-10-27 (#1217): linktree sources moved into cloud-me-pub-profiles-_lnktree (Lnktree); renamed z-archived_front-linktree. Originally split from diegonmarcos.github.io (#1072)."
     },
     {
       "name": "Projects-endeavours",
@@ -384,7 +460,7 @@
       "renamed_from": [
         "front-individual"
       ],
-      "doc": "Superseded 2026-10-25 (#1196): its projects moved into cloud-me-profiles (b_Profiles); renamed z-archived_front-individual, to be archived on GitHub (owner click)"
+      "doc": "Superseded 2026-10-25 (#1196): its projects moved into cloud-me-pub-profiles-prf-prs (b_Profiles); renamed z-archived_front-individual, to be archived on GitHub (owner click)"
     },
     {
       "name": "z-archived_front-warehouse",
@@ -414,27 +490,50 @@
       "renamed_from": [
         "front-media"
       ],
-      "doc": "Superseded 2026-10-25 (#1196): its projects moved into cloud-me-profiles (b_Profiles); renamed z-archived_front-media, to be archived on GitHub (owner click)"
+      "doc": "Superseded 2026-10-25 (#1196): its projects moved into cloud-me-pub-profiles-prf-prs (b_Profiles); renamed z-archived_front-media, to be archived on GitHub (owner click)"
     },
     {
-      "name": "cloud-me-others",
+      "name": "cloud-me-pub-shared",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/cloud-me-others.git",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-shared.git",
       "private": false,
       "renamed_from": [
-        "front-mydata"
+        "front-mydata",
+        "cloud-me-others"
       ],
       "doc": "Sources of the b_MyData group, split from front-projects (#1072); snapshot copy, paths mirror the original layout."
     },
     {
-      "name": "cloud-me-profiles",
+      "name": "cloud-me-pub-profiles",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/cloud-me-profiles.git",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles.git",
       "private": false,
       "renamed_from": [
-        "front-profiles"
+        "front-profiles",
+        "cloud-me-profiles",
+        "Me-Profiles"
       ],
-      "doc": "Sources of the b_Profiles group (plus Lnktree, moved in from front-linktree #1217, and c_Circus/myAstro, moved in from CG-circus #1218), split from front-projects (#1072); snapshot copy, paths mirror the original layout."
+      "doc": "Hub of the cloud-me-pub-profiles family (Leaf.y, Nexus.z, Stark.x, Prf-Prs, _Lnktree): its own repos.json subset plus committed symlinks, same model as CG, Fin-CM and cloud. Was cloud-me-profiles (the b_Profiles, Lnktree and myAstro sources); content split into cloud-me-pub-profiles-prf-prs and cloud-me-pub-profiles-_lnktree 2026-10-28."
+    },
+    {
+      "name": "cloud-me-pub-profiles-prf-prs",
+      "group": "b_projects",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles-prf-prs.git",
+      "private": false,
+      "renamed_from": [
+        "Me-Profiles-Prf-Prs"
+      ],
+      "doc": "Professional and personal profile sites: b_Profiles (myprofile, mySocials, cv_pdf, cv_web, landpage) and c_Circus/myAstro, split 2026-10-28 out of cloud-me-profiles (cloud-me-pub-profiles); snapshot copy, paths mirror the original layout."
+    },
+    {
+      "name": "cloud-me-pub-profiles-_lnktree",
+      "group": "b_projects",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles-_lnktree.git",
+      "private": false,
+      "renamed_from": [
+        "Me-Profiles-_Lnktree"
+      ],
+      "doc": "Linktree sources (Lnktree/linktree, linktree_mindmap, linktree_pixel-world, linktree_icon-view), split 2026-10-28 out of cloud-me-profiles (cloud-me-pub-profiles); published URLs unchanged."
     },
     {
       "name": "CG-galaxy",
@@ -461,21 +560,25 @@
       "renamed_from": [
         "front-circus"
       ],
-      "doc": "Sources of the c_Circus group (movies, music, myfeed moved to cloud-webapps-2 #1204; myAstro moved to cloud-me-profiles #1218), split from front-projects (#1072); snapshot copy, paths mirror the original layout."
+      "doc": "Sources of the c_Circus group (movies, music, myfeed moved to cloud-h-webapps-2 #1204; myAstro moved to cloud-me-pub-profiles-prf-prs #1218), split from front-projects (#1072); snapshot copy, paths mirror the original layout."
     },
     {
       "name": "Fin-CM",
       "group": "b_projects",
       "url": "git@github.com:diegonmarcos/Fin-CM.git",
       "private": false,
-      "doc": "Project master for the Fin-CM family (Fin-CM-NexusZ, Fin-CM-mqpm, Fin-CM-Blmbrg): its own repos.json subset plus committed symlinks, same model as CG, front and cloud. Created 2026-10-27 (#1224)."
+      "doc": "Project master for the Fin-CM family (Fin-CM-mqpm, Fin-CM-Blmbrg; Nexus.z moved to the cloud-me-pub-profiles family 2026-10-28): its own repos.json subset plus committed symlinks, same model as CG, front and cloud. Created 2026-10-27 (#1224)."
     },
     {
-      "name": "Fin-CM-NexusZ",
+      "name": "cloud-me-pub-profiles-nexus.z",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/Fin-CM-NexusZ.git",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles-nexus.z.git",
       "private": false,
-      "doc": "Nexus.z company site (published at /nexus/), moved from front-endeavours a_Companies/nexus (#1224); front-endeavours keeps a symlink to this repo."
+      "renamed_from": [
+        "Fin-CM-NexusZ",
+        "Me-Profiles-Nexus.z"
+      ],
+      "doc": "Nexus.z company site (published at /nexus/), moved from front-endeavours a_Companies/nexus (#1224); renamed from Fin-CM-NexusZ into the cloud-me-pub-profiles family 2026-10-28; Projects-endeavours keeps a symlink to this repo."
     },
     {
       "name": "Fin-CM-mqpm",
@@ -496,14 +599,18 @@
       "group": "b_projects",
       "url": "git@github.com:diegonmarcos/DeepSc.git",
       "private": false,
-      "doc": "Project master for the DeepSc family (DeepSc-StarkX, DeepSc-X): its own repos.json subset plus committed symlinks, same model as CG, front and cloud. Created 2026-10-27 (#1224)."
+      "doc": "Project master for the DeepSc family (DeepSc-X; Stark.x moved to the cloud-me-pub-profiles family 2026-10-28): its own repos.json subset plus committed symlinks, same model as CG, front and cloud. Created 2026-10-27 (#1224)."
     },
     {
-      "name": "DeepSc-StarkX",
+      "name": "cloud-me-pub-profiles-stark.x",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/DeepSc-StarkX.git",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles-stark.x.git",
       "private": false,
-      "doc": "Stark.x company site (published at /stark/), moved from front-endeavours a_Companies/stark (#1224); front-endeavours keeps a symlink to this repo."
+      "renamed_from": [
+        "DeepSc-StarkX",
+        "Me-Profiles-Stark.x"
+      ],
+      "doc": "Stark.x company site (published at /stark/), moved from front-endeavours a_Companies/stark (#1224); renamed from DeepSc-StarkX into the cloud-me-pub-profiles family 2026-10-28; Projects-endeavours keeps a symlink to this repo."
     },
     {
       "name": "DeepSc-X",
@@ -517,14 +624,18 @@
       "group": "b_projects",
       "url": "git@github.com:diegonmarcos/DuckPeng.git",
       "private": false,
-      "doc": "Project master for the DuckPeng family: the CG hub, the cloud hub and DuckPeng-LeafY. Its own repos.json subset plus committed symlinks. Created 2026-10-27 (#1224)."
+      "doc": "Project master for the DuckPeng family: the CG hub and the cloud hub (Leaf.y moved to the cloud-me-pub-profiles family 2026-10-28). Its own repos.json subset plus committed symlinks. Created 2026-10-27 (#1224)."
     },
     {
-      "name": "DuckPeng-LeafY",
+      "name": "cloud-me-pub-profiles-leaf.y",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/DuckPeng-LeafY.git",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles-leaf.y.git",
       "private": false,
-      "doc": "Leaf.y company site (published at /leafy/), moved from front-endeavours a_Companies/leafy (#1224); front-endeavours keeps a symlink to this repo."
+      "renamed_from": [
+        "DuckPeng-LeafY",
+        "Me-Profiles-Leaf.y"
+      ],
+      "doc": "Leaf.y company site (published at /leafy/), moved from front-endeavours a_Companies/leafy (#1224); renamed from DuckPeng-LeafY into the cloud-me-pub-profiles family 2026-10-28; Projects-endeavours keeps a symlink to this repo."
     },
     {
       "name": "Projects-labtools",
@@ -537,12 +648,13 @@
       "doc": "Sources of the former c_LabTools group, split from front-projects (#1072); since #1218 laid out as a-Lfy_CG-Zirkus, a-Lfy_C3, b-Nxs_PA, b-Nxs_Blmmbrg, c-Stk_DsX."
     },
     {
-      "name": "cloud-webapps-2",
+      "name": "cloud-h-webapps-2",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/cloud-webapps-2.git",
+      "url": "git@github.com:diegonmarcos/cloud-h-webapps-2.git",
       "private": false,
       "renamed_from": [
-        "front-suite"
+        "front-suite",
+        "cloud-webapps-2"
       ],
       "doc": "Sources of the c_Suite group (now also movies, music, myfeed, #1204), split from front-projects (#1072); snapshot copy, paths mirror the original layout."
     },
