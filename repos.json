@@ -293,9 +293,9 @@
   },
   "repos": [
     {
-      "name": "Projects",
+      "name": "Projects___",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/Projects.git",
+      "url": "git@github.com:diegonmarcos/Projects___.git",
       "private": false,
       "renamed_from": [
         "ffront",
@@ -504,9 +504,9 @@
       "doc": "Sources of the b_MyData group, split from front-projects (#1072); snapshot copy, paths mirror the original layout."
     },
     {
-      "name": "cloud-me-pub-profiles",
+      "name": "cloud-me-pub-profiles___",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles.git",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-profiles___.git",
       "private": false,
       "renamed_from": [
         "front-profiles",
@@ -546,9 +546,9 @@
       "doc": "Sources of the b_Projects group, split from front-projects (#1072); snapshot copy, paths mirror the original layout."
     },
     {
-      "name": "CG",
+      "name": "CG___",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/CG.git",
+      "url": "git@github.com:diegonmarcos/CG___.git",
       "private": false,
       "doc": "Project master for the CG family (CG-circus, CG-galaxy, CG-galaxy-gaia, CG-unity, CG-voxel-rust): its own repos.json subset plus committed symlinks, same model as front, cloud and lecole-42. Created 2026-10-26 (#1204)."
     },
@@ -563,9 +563,9 @@
       "doc": "Sources of the c_Circus group (movies, music, myfeed moved to cloud-h-webapps-2 #1204; myAstro moved to cloud-me-pub-profiles-prf-prs #1218), split from front-projects (#1072); snapshot copy, paths mirror the original layout."
     },
     {
-      "name": "Fin-CM",
+      "name": "Fin-CM___",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/Fin-CM.git",
+      "url": "git@github.com:diegonmarcos/Fin-CM___.git",
       "private": false,
       "doc": "Project master for the Fin-CM family (Fin-CM-mqpm, Fin-CM-Blmbrg; Nexus.z moved to the cloud-me-pub-profiles family 2026-10-28): its own repos.json subset plus committed symlinks, same model as CG, front and cloud. Created 2026-10-27 (#1224)."
     },
@@ -595,9 +595,9 @@
       "doc": "Blmbrg (fin terminal, market watch, news): README and deployer wiring skeleton; the matching front-labtools projects b-Nxs_Blmmbrg/* move here with the labtools split (#1218). #1224."
     },
     {
-      "name": "DeepSc",
+      "name": "DeepSc___",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/DeepSc.git",
+      "url": "git@github.com:diegonmarcos/DeepSc___.git",
       "private": false,
       "doc": "Project master for the DeepSc family (DeepSc-X; Stark.x moved to the cloud-me-pub-profiles family 2026-10-28): its own repos.json subset plus committed symlinks, same model as CG, front and cloud. Created 2026-10-27 (#1224)."
     },
@@ -620,9 +620,9 @@
       "doc": "Deep-ScX / saylitics: README and deployer wiring skeleton; the matching front-labtools project c-Stk_DsX/sailytics moves here with the labtools split (#1218). #1224."
     },
     {
-      "name": "DuckPeng",
+      "name": "DuckPeng___",
       "group": "b_projects",
-      "url": "git@github.com:diegonmarcos/DuckPeng.git",
+      "url": "git@github.com:diegonmarcos/DuckPeng___.git",
       "private": false,
       "doc": "Project master for the DuckPeng family: the CG hub and the cloud hub (Leaf.y moved to the cloud-me-pub-profiles family 2026-10-28). Its own repos.json subset plus committed symlinks. Created 2026-10-27 (#1224)."
     },
