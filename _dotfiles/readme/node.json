@@ -5,6 +5,7 @@
   "label": "Projects-___",
   "code": "6.0",
   "kind": "hub",
+  "variant": "hub",
   "description": "Registry index for the front-* repo family (front-master, mirrors cloud-master)",
   "visibility": "public",
   "url": "https://github.com/diegonmarcos/Projects-___",
