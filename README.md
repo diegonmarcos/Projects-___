@@ -1,7 +1,7 @@
 # Projects-___
 
 Registry index for the Projects repo family — same model as `cloud-master`
-(`~/git/cloud/`), narrowed to the Projects family (group b_projects). This repo is an INDEX, not a container:
+(`~/git/cloud/`), narrowed to the Projects family (group b_projects): Projects-endeavours, Projects-labtools and the DuckPeng-___ hub. This repo is an INDEX, not a container:
 it holds `repos.json` (the registry) and `clone.sh` (pick which repos to
 have locally); the actual clones live as siblings in `~/git/`.
 
