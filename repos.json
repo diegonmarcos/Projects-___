@@ -294,7 +294,7 @@
   "repos": [
     {
       "name": "Projects-endeavours",
-      "farm": "07.Projects",
+      "farm": "6.Projects",
       "group": "b_projects",
       "hub": "Projects-___",
       "url": "git@github.com:diegonmarcos/Projects-endeavours.git",
@@ -307,7 +307,7 @@
     },
     {
       "name": "DuckPeng-___",
-      "farm": "07.Projects/DuckPeng",
+      "farm": "6.Projects/DuckPeng",
       "group": "b_projects",
       "parent_hub": "Projects-___",
       "url": "git@github.com:diegonmarcos/DuckPeng-___.git",
@@ -320,7 +320,7 @@
     },
     {
       "name": "Projects-labtools",
-      "farm": "07.Projects",
+      "farm": "6.Projects",
       "group": "b_projects",
       "hub": "Projects-___",
       "url": "git@github.com:diegonmarcos/Projects-labtools.git",
