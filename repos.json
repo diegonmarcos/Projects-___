@@ -57,6 +57,15 @@
       "doc": "Front family renamed Projects."
     },
     {
+      "from": "Projects-labtools",
+      "to": "z-archived_Projects-labtools",
+      "kind": "repo",
+      "since": "2026-10-30",
+      "ticket": "#1311",
+      "status": "pending owner GitHub rename",
+      "doc": "Emptied (its four projects moved to Fin-CM-Blmbrg, Fin-CM-mqpm, CG-circus, CAD-Simulators on 2026-10-29; only pointer READMEs remain); archived. The GitHub rename is the owner's step; the old name keeps working through the GitHub redirect."
+    },
+    {
       "from": "b_front",
       "to": "b_projects",
       "kind": "group",
@@ -317,18 +326,6 @@
         "DuckPeng___"
       ],
       "doc": "Project master for the DuckPeng family: the CG hub and the cloud hub (Leaf.y moved to the cloud-me-pub-profiles family 2026-10-28). Its own repos.json subset plus committed symlinks. Created 2026-10-27 (#1224)."
-    },
-    {
-      "name": "Projects-labtools",
-      "farm": "6.Projects",
-      "group": "b_projects",
-      "hub": "Projects-___",
-      "url": "git@github.com:diegonmarcos/Projects-labtools.git",
-      "private": false,
-      "renamed_from": [
-        "front-labtools"
-      ],
-      "doc": "Sources of the former c_LabTools group, split from front-projects (#1072); since #1218 laid out as a-Lfy_C3 only; a-Lfy_CG-Zirkus, b-Nxs_PA, b-Nxs_Blmmbrg, c-Stk_DsX were moved with history to CG-circus, Fin-CM-mqpm, Fin-CM-Blmbrg, CAD-Simulators (labtools 741bb8b, 2026-10-28)."
     }
   ]
 }
