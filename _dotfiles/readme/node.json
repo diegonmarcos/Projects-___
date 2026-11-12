@@ -41,6 +41,14 @@
       "visibility": "public",
       "kind": "hub",
       "description": "DuckPeng — hub: CG, Cloud and LeafY"
+    },
+    {
+      "code": "6.3.1.1",
+      "name": "Projects-Library-KG",
+      "url": "https://github.com/diegonmarcos/Projects-Library-KG",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Library knowledge graph: saved-collections board (served by Cloud KG Store Me) and the Chronos site"
     }
   ],
   "tree": [

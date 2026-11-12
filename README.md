@@ -17,12 +17,13 @@ have locally); the actual clones live as siblings in `~/git/`.
 
 ## Members
 
-2 member(s), from the registry (`0_registry/projects-repos.json` in _git-repos-master).
+3 member(s), from the registry (`0_registry/projects-repos.json` in _git-repos-master).
 
 | Code | Repo | Visibility | Description |
 |---|---|---|---|
 | `6.1.1.1` | [Projects-endeavours](https://github.com/diegonmarcos/Projects-endeavours) | 🌐 public | Front group a_Companies (split from front-projects, #1072) |
 | `6.2.0` | [DuckPeng-___](https://github.com/diegonmarcos/DuckPeng-___) (hub) | 🌐 public | DuckPeng — hub: CG, Cloud and LeafY |
+| `6.3.1.1` | [Projects-Library-KG](https://github.com/diegonmarcos/Projects-Library-KG) | 🌐 public | Library knowledge graph: saved-collections board (served by Cloud KG Store Me) and the Chronos site |
 
 ## Usage
 
